@@ -32,10 +32,10 @@ jobs:
     - name: Build my App  
       run: npm run build
       env:
-        NEXT_PUBLIC_BASE_PATH: /youtube-2020-august-github-pages-github-actions
+        NEXT_PUBLIC_BASE_PATH: /new
     - run: npm run export
       env:
-        NEXT_PUBLIC_BASE_PATH: /youtube-2020-august-github-pages-github-actions
+        NEXT_PUBLIC_BASE_PATH: /new
     - run: touch ./out/.nojekyll
     
     - name: Deploy 🚀
